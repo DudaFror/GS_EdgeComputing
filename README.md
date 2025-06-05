@@ -48,7 +48,7 @@ Este projeto simula um sistema automatizado utilizando um **sensor ultrassônico
 
 ---
 
-##🎥 Demonstração em Vídeo
+## 🎥 Demonstração em Vídeo
 Assista ao projeto funcionando na prática:
 
 🔗 Assistir no YouTube
