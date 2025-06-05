@@ -1,50 +1,54 @@
-💧 Projeto: Sistema de Monitoramento de Nível de Água com Alerta Sonoro e Visual
-📌 Descrição do Problema
-Enchentes urbanas e transbordamento de reservatórios representam riscos à segurança pública, especialmente em áreas mal monitoradas. A falta de sistemas simples de alerta impede ações preventivas. Esse projeto busca simular uma solução prática e acessível para detectar o aumento do nível da água e emitir alertas visuais (LED) e sonoros (buzzer) quando o limite for ultrapassado.
+# 💧 Projeto: Sistema de Monitoramento de Nível de Água com Alerta Sonoro e Visual
 
-🛠️ Visão Geral da Solução
-Este projeto usa um sensor ultrassônico HC-SR04 para medir a distância entre o topo do reservatório e a superfície da água. Um Arduino Uno processa os dados e aciona:
+## 📌 Problema
 
-Um LED vermelho como alerta visual.
+Enchentes e transbordamentos são um problema recorrente em áreas urbanas e rurais. A ausência de monitoramento preventivo impede ações de resposta rápida, colocando vidas e estruturas em risco. A proposta deste projeto é oferecer uma solução simples, de baixo custo e funcional para monitorar o nível da água em tempo real.
 
-Um buzzer ativo como alarme sonoro contínuo.
+---
 
-🧱 Componentes Utilizados
-Componente	Quantidade
-Arduino Uno	1
-Sensor HC-SR04	1
-Buzzer ativo	1
-LED (vermelho)	1
-Resistores (220Ω)	1
-Jumpers	Diversos
-Protoboard	1 (opcional)
+## 🛠️ Solução Proposta
 
-📊 Lógica de Funcionamento
-Altura máxima do reservatório: 100 cm
+Este projeto simula um sistema automatizado utilizando um **sensor ultrassônico HC-SR04**, conectado a um **Arduino Uno**, para medir a altura da água em um reservatório. Ao detectar um **nível crítico (distância menor que 20 cm)**, o sistema aciona:
 
-Alerta crítico: quando a distância medida for menor que 20 cm (nível da água acima de 80%)
+- 🔊 Um **buzzer ativo** (alarme sonoro contínuo)
+- 🚨 Um **LED vermelho** (alerta visual)
 
-Aciona LED e buzzer simultaneamente e de forma contínua
+---
 
-🔁 Diagrama ilustrativo (exemplo)
-(Se quiser, posso gerar uma imagem explicativa ou layout do circuito em Fritzing ou Wokwi)
+## 🧱 Componentes Utilizados
 
-🧪 Guia para Simulação (Wokwi)
-Passos:
-Acesse o link da simulação abaixo.
+| Componente        | Quantidade |
+|-------------------|------------|
+| Arduino Uno       | 1          |
+| Sensor HC-SR04    | 1          |
+| Buzzer ativo      | 1          |
+| LED (vermelho)    | 1          |
+| Resistor 220Ω     | 1          |
+| Jumpers           | Diversos   |
+| Protoboard        | 1          |
 
-Clique em "Start Simulation".
+---
 
-No sensor ultrassônico, mova o controle deslizante para simular a distância.
+## 🧠 Lógica de Funcionamento
 
-Veja o LED acender e o buzzer tocar quando a água "subir" (distância < 20 cm).
+- Altura máxima simulada do reservatório: `100 cm`
+- Se a distância do sensor for **menor que 20 cm**, aciona LED + buzzer
+- Sistema reativa automaticamente caso o nível normalize
 
-🎮 Link para simular no Wokwi:
-🔗 Abrir simulação no Wokwi
+---
 
-Obs: se quiser usar o Tinkercad, o mesmo circuito pode ser montado lá, mas o Wokwi oferece controle mais intuitivo da distância do sensor.
+## 🧪 Simulação no Wokwi
+✅ Como testar:
+1) Acesse o link da simulação abaixo.
+2) Clique em "Start Simulation".
+3) Mova o controle deslizante do sensor ultrassônico.
+4) Observe o LED e o som do buzzer quando o nível crítico for atingido.
 
-🎥 Vídeo Demonstrativo
-Assista ao vídeo abaixo para ver o projeto em ação:
+🔗 Acessar Simulação no Wokwi
+
+---
+
+##🎥 Demonstração em Vídeo
+Assista ao projeto funcionando na prática:
 
 🔗 Assistir no YouTube
