@@ -44,11 +44,11 @@ Este projeto simula um sistema automatizado utilizando um **sensor ultrassônico
 3) Mova o controle deslizante do sensor ultrassônico.
 4) Observe o LED e o som do buzzer quando o nível crítico for atingido.
 
-🔗 Acessar Simulação no Wokwi
+🔗 [Acessar Simulação no Wokwi](https://wokwi.com/projects/432928505922508801)
 
 ---
 
 ## 🎥 Demonstração em Vídeo
 Assista ao projeto funcionando na prática:
 
-🔗 Assistir no YouTube
+🔗 [Assistir no YouTube](https://youtu.be/PgZSIqhEC6U)
